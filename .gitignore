@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and operating system files
+.DS_Store
+.vscode/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit local configuration
+.streamlit/secrets.toml
+
+# Uploaded resumes and generated private files
+uploads/
+private_data/
